@@ -6,7 +6,8 @@
   "scripts": {
     "phoenix": "",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "@babel/core": "^7.20.12",
     "babel-loader": "^9.1.2",
     "copy-webpack-plugin": "^11.0.0",
+    "gh": "^2.8.9",
     "html-webpack-plugin": "^5.5.0",
     "npm": "^9.3.1",
     "webpack": "^5.75.0",
