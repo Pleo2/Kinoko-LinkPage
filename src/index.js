@@ -30,7 +30,7 @@ const data =
     description: `Actualmente Ubicados en valencia VE , <b>KinokoCakes</b>
     Somos un emprendimiento dedicado a la creacion de magicas tortas,dulces y detalles totalmente personalizados, hecho con todo el amor y cuidado de nuestra chef pastelera <b> Victoria Ardon </b>`,
 
-    avatar: "https://postimg.cc/Mv2T4ghP",
+    avatar: "https://i.postimg.cc/TPhx6QJT/logo-Kinoko.jpg",
 
     social: 
     [
@@ -66,7 +66,7 @@ const data =
 main();
 
 function main(){
-  $img.src = data.avatar
+  $img.setAttribute("src", data.avatar);
   
   $name.textContent = data.name;
   $nickName.textContent = data.nickname;
