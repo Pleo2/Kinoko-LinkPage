@@ -30,7 +30,7 @@ const data =
     description: `Actualmente Ubicados en valencia VE , <b>KinokoCakes</b>
     Somos un emprendimiento dedicado a la creacion de magicas tortas,dulces y detalles totalmente personalizados, hecho con todo el amor y cuidado de nuestra chef pastelera <b> Victoria Ardon </b>`,
 
-    avatar: "./logoKinoko.jpg",
+    avatar: "https://postimg.cc/Mv2T4ghP",
 
     social: 
     [
